@@ -1,0 +1,42 @@
+.text-primary,
+.nav-link {
+  color: #2e266f !important;
+}
+.nav-item {
+  color: #2e266f !important;
+}
+.nav-item {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+.navbar-brand {
+  display: none;
+  visibility: hidden;
+}
+.food-image {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 300px;
+  height: 350px;
+  background-color: #efc81a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 640px) {
+  .food-image {
+    width: 300px;
+  }
+}
