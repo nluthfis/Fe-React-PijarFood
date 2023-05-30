@@ -57,8 +57,8 @@ function App() {
                 alt="img-menu"
               />
             </div>
-
-            <div className="col-md-6 col-xs-10 d-flex flex-column d-lg-block justify-content-center align-self-center">
+            <div className="col-md-2"></div>
+            <div className="col-md-4 col-xs-10 d-flex flex-column d-lg-block justify-content-center align-self-center">
               <h3 className="text-center text-lg-start mt-5">
                 Oseng Teri Kentang
               </h3>
@@ -69,7 +69,7 @@ function App() {
               <div className="text-center text-lg-start ">
                 <Link
                   to="/details/oseng-teri-kentang"
-                  className="btn btn-warning "
+                  className="btn btn-warning shadow"
                 >
                   Learn More
                 </Link>
@@ -93,8 +93,8 @@ function App() {
                 alt="img-menu1"
               />
             </div>
-
-            <div className="col-md-6 col-xs-10 d-flex flex-column d-lg-block justify-content-center align-self-center">
+            <div className="col-md-2"></div>
+            <div className="col-md-4 col-xs-10 d-flex flex-column d-lg-block justify-content-center align-self-center">
               <h3 className="text-center text-lg-start mt-5">
                 Gulai Nangka Padang
               </h3>
@@ -109,7 +109,7 @@ function App() {
               <div className="text-center text-lg-start ">
                 <Link
                   to="/details/gulai-nangka-padang"
-                  className="btn btn-warning "
+                  className="btn btn-warning shadow "
                 >
                   Learn More
                 </Link>

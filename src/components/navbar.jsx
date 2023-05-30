@@ -10,9 +10,12 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container">
             <div>
-              <Link to="/" className="navbar-brand">
-                <img src="/img/logo2.png" height="25px" alt="CoolBrand" />
-              </Link>
+              <img
+                className="logo-logo"
+                src="/img/logo2.png"
+                height="25px"
+                alt="CoolBrand"
+              />
             </div>
 
             <button

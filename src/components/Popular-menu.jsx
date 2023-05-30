@@ -6,9 +6,12 @@ function PopularMenu(props) {
   return (
     <>
       <div className="col-md-4 col-xs-12 col-sm-12 mb-4">
-        <Link to={`/details/${title?.toLowerCase()?.split(" ").join("-")}`}>
+        <Link
+          to={`/details/${title?.toLowerCase()?.split(" ").join("-")}`}
+          style={{ textDecoration: "none" }}
+        >
           <div
-            className="menu-background "
+            className="menu-background text-decoration-none"
             img-
             style={{
               backgroundImage: `url(/img/${image})`,
